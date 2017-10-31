@@ -1,0 +1,262 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	font-family: calibri, Helvetica, sans-serif;
+	background-color: #F8F8F8;
+	padding: 15;
+	border-top: 1px solid black;
+	margin: 0;
+	border: 0;
+}
+
+
+
+header > nav > a{
+	color: gray;
+	text-decoration: none;
+}
+
+header > nav > a:hover{
+	color: black;
+}
+
+header > nav > ul > li > a:hover{
+	color: black;
+}
+
+header > nav > ul > li > a{
+	font-weight: bold;
+	color: gray;
+	text-decoration: none;
+}
+
+#votresite{
+	font-weight: bold;
+	margin-left: 100;
+}
+
+#navigation{
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-right: 85;
+}
+
+header > nav > ul > li{
+	display: inline;
+	margin: 15;
+}
+
+#Landingbloc{
+	padding-top: 45;
+	padding-bottom: 200;
+	clear: both;
+	background: url(img/intro-bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: calibri, Helvetica, sans-serif;
+	text-shadow: 2px 2px 3px black;
+	margin-bottom: 0;
+}
+
+#landing{
+	margin-left: 0;
+	margin-top: 0;
+	padding-left: 0;
+	color: white;
+	font-weight: bold;
+}
+
+#landingpage{
+	text-align: center;
+	font-size: 400%;
+	margin-top: 200;
+	margin-left: 0;
+	padding: 0;
+	padding-right: 0;
+	margin-bottom: 0;
+}
+
+#atemplate{
+	text-align: center;
+	font-size: 150%;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#ligne{
+	width: 300;
+	margin-top: 10;
+	padding-top: 0;
+	box-shadow: 3px 3px 3px black;
+}
+
+#liens{
+	text-align: center;
+}
+
+#liens > li{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+#liens:hover{
+	text-decoration: underline;
+	color: gray;
+}
+
+
+#liens > li > a{
+	color: white;
+	text-decoration: none;
+}
+
+#gris1{
+	background-color: #F8F8F8;
+	font-family: arial, Helvetica, sans-serif;
+	padding-bottom: 100;
+	padding-top: 50;
+}
+
+#ipad{
+	float: right;
+	margin-right: 100;
+	margin-bottom: 200;
+}
+
+#titreipad{
+	margin-left: 75;
+	margin-top: 50;
+}
+
+#textipad{
+	margin-left: 75;
+	margin-top: 50;
+	font-size: 18;
+}
+
+#blanc1{
+	font-family: arial, Helvetica, sans-serif;
+	padding-bottom: 60;
+}
+
+#mac{
+	float: left;
+	margin-left: 50;
+	margin-top: 50;
+	padding-bottom: 80;
+}
+
+#titremac{
+	margin-left: 430;
+}
+
+#textmac{
+	font-size: 18;
+	margin-left: 430;
+}
+
+#gris2{
+	background-color: #F8F8F8;
+	font-family: arial, Helvetica, sans-serif;
+	padding-bottom: 75;
+	padding-top: 15;
+}
+
+#iphones{
+	float: right;
+	margin-right: 50;
+	margin-top: 40;
+}
+
+#titreiphones{
+	margin-right: 500;
+	margin-left: 75;
+	margin-top: 100;
+}
+
+#textiphones{
+	margin-right: 450;
+	margin-left: 75;
+	font-size: 18;
+}
+
+#textiphones > a{
+	color: #66A7E5;
+	text-decoration: none;
+}
+
+#textiphones > a:hover{
+	color: #2E5CE6;
+}
+
+#Connecttoyou{
+	background:url(img/banner-bg.jpg);
+	background-size: 100%;
+	padding: 85;
+	font-family: calibri, Helvetica, sans-serif;
+	color: white;
+}
+
+#textconnect{
+	float: left;
+	font-size: 40;
+	font-weight: bold;
+}
+
+#Connecttoyou > ul{
+	margin-right: 50;
+}
+
+#Connecttoyou > ul >li{
+	float: right;
+	list-style-type: none;
+	display: inline;
+}
+
+#Connecttoyou > ul > li > a{
+	font-size: 18;
+	color: white;
+	margin: 20;
+	text-decoration: none;
+}
+
+footer{
+	background-color: #F8F8F8;
+	font-family: arial, Helvetica, sans-serif;
+	padding: 55;
+	padding-left: 50;
+}
+
+footer > ul > li{
+	list-style-type: none;
+	display: inline;
+	font-size: 15;
+	font-weight: bold;
+	margin: 10;
+}
+
+footer > ul > li > a{
+	color: #66A7E5;
+	text-decoration: none;
+}
+
+footer > ul > li > a:hover{
+	color: #2E5CE6;
+	text-decoration: underline;
+}
+
+#copyright{
+	padding-left: 50;
+	font-size: 12;
+	font-weight: bold;
+	color: gray;
+}
